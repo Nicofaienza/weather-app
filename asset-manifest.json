@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Nicofaienza/weather-app/static/css/main.715ef63f.css",
-    "main.js": "/Nicofaienza/weather-app/static/js/main.ecf0d9f1.js",
-    "static/media/sand.jpg": "/Nicofaienza/weather-app/static/media/sand.ce026c8ade3bf86e66d3.jpg",
-    "static/media/rain.jpg": "/Nicofaienza/weather-app/static/media/rain.78de501afa2c8dbbb2b8.jpg",
-    "static/media/night.jpg": "/Nicofaienza/weather-app/static/media/night.9d6c4998b428144288c0.jpg",
-    "static/media/snow.jpg": "/Nicofaienza/weather-app/static/media/snow.b5e57bcb6285a841a5c3.jpg",
-    "static/media/clear.jpg": "/Nicofaienza/weather-app/static/media/clear.f838df71616f8f414bb0.jpg",
-    "static/media/clouds.jpg": "/Nicofaienza/weather-app/static/media/clouds.3331f3c9bf51f8843706.jpg",
-    "static/media/mist.jpg": "/Nicofaienza/weather-app/static/media/mist.a4e8dbd1692dc1801db2.jpg",
-    "index.html": "/Nicofaienza/weather-app/index.html",
-    "main.715ef63f.css.map": "/Nicofaienza/weather-app/static/css/main.715ef63f.css.map",
-    "main.ecf0d9f1.js.map": "/Nicofaienza/weather-app/static/js/main.ecf0d9f1.js.map"
+    "main.css": "/weather-app/static/css/main.715ef63f.css",
+    "main.js": "/weather-app/static/js/main.d2c20fa2.js",
+    "static/media/sand.jpg": "/weather-app/static/media/sand.ce026c8ade3bf86e66d3.jpg",
+    "static/media/rain.jpg": "/weather-app/static/media/rain.78de501afa2c8dbbb2b8.jpg",
+    "static/media/night.jpg": "/weather-app/static/media/night.9d6c4998b428144288c0.jpg",
+    "static/media/snow.jpg": "/weather-app/static/media/snow.b5e57bcb6285a841a5c3.jpg",
+    "static/media/clear.jpg": "/weather-app/static/media/clear.f838df71616f8f414bb0.jpg",
+    "static/media/clouds.jpg": "/weather-app/static/media/clouds.3331f3c9bf51f8843706.jpg",
+    "static/media/mist.jpg": "/weather-app/static/media/mist.a4e8dbd1692dc1801db2.jpg",
+    "index.html": "/weather-app/index.html",
+    "main.715ef63f.css.map": "/weather-app/static/css/main.715ef63f.css.map",
+    "main.d2c20fa2.js.map": "/weather-app/static/js/main.d2c20fa2.js.map"
   },
   "entrypoints": [
     "static/css/main.715ef63f.css",
-    "static/js/main.ecf0d9f1.js"
+    "static/js/main.d2c20fa2.js"
   ]
 }
