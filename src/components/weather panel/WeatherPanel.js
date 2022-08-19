@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Form from "../form/Form";
 import WeatherCard from "../weather card/WeatherCard";
 import '../../styles/index.css';
-import { Appbg } from './Weatherpanelelements.js'
+import { Appbg } from './Weatherpanelelements.js';
 
 const WeatherPanel = () => {
 
@@ -73,13 +73,16 @@ const WeatherPanel = () => {
     })
 
     return(
-        <Appbg weatherDesc = {weatherDesc} sunset = {sunset} sunrise = {sunrise}>
+        <div id="app-container">
+            <Appbg weatherDesc = {weatherDesc} sunset = {sunset} sunrise = {sunrise}></Appbg>
             {
                 show ? 
                 <WeatherCard setWeatherDesc = {setWeatherDesc} weather = {weather} forecast = {forecast} setShow = {setShow}/> :
                 <Form getWeather = {getWeather} loading = {loading} />
             }
-        </Appbg>
+        
+        </div>
+        
     );
 
 };

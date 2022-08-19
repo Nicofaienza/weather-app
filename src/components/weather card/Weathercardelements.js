@@ -2,15 +2,16 @@ import styled from "styled-components";
 import '../../styles/index.css';
 
 export const Cardwrapper = styled.div`
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
-    background: rgb(210,90,4);
+    justify-content: space-around;
+    padding-top: 80px;
 
     & #temperature{
-        font-size: 50px;
+        font-size: 4rem;
     }
 `;
 
@@ -20,17 +21,15 @@ export const Cardbutton = styled.button`
     border-radius: 20px;
     padding: 15px 30px;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 600;
-    position: absolute;
-    bottom: 60px;
 `;
 
 export const Cardtitle = styled.h2`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 600;
     position: absolute;
     top: 0;
@@ -41,21 +40,19 @@ export const Cardtitle = styled.h2`
 `;
 
 export const Cardinfo = styled.ul`
-    width: 70%;
+    width: 90%;
     list-style: none;
     background: var(--primary);
-    padding: 20px 60px;
+    padding: 40px 60px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    position: absolute;
-    top: 120px;
 `;
 
 export const Cardinfoli = styled.li`
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
 
     & > h3{
@@ -63,7 +60,7 @@ export const Cardinfoli = styled.li`
         color: #fff;
         font-weight: 600;
         text-align: center;
-        font-size: 22px;
+        font-size: 1.3rem;
     }
 `;
 
@@ -76,11 +73,9 @@ export const Cardimgcontainer = styled.div`
 `;
 
 export const Cardnextdayscontainer = styled.div`
-    width: 70%;
+    width: 90%;
     justify-content: space-between;
     display: flex;
-    position: absolute;
-    top: 550px;
 `;
 
 export const Cardnextday = styled.div`

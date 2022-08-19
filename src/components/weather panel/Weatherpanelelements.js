@@ -12,15 +12,16 @@ console.log("time: ",time)
 
 export const Appbg = styled.div`
     position: absolute;
+    z-index: -1;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     background: linear-gradient(0deg, rgba(85,85,85,1) 0%, rgba(176,176,176,1) 23%, rgba(219,219,219,1) 100%);
     background-position: center;
     background-size: cover;
+    filter: blur(5px);
     background-image: ${({ weatherDesc, sunset, sunrise }) => {
             return  (weatherDesc === "Clear" && sunrise < time < sunset) ? `url(${clear});`:
                 (weatherDesc === "Clear" && sunrise > time > sunset) ? `url(${night});`:
